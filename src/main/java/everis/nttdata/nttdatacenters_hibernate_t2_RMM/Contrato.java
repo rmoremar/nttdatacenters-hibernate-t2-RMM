@@ -5,6 +5,7 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -17,7 +18,7 @@ import javax.persistence.TemporalType;
 public class Contrato {
 	
 	@Id
-	@GeneratedValue(strategy=GererationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="codigo_contrato",unique=true,nullable=false)
 	private long codigo_contrato;
 	

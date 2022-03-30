@@ -20,7 +20,7 @@ public class main {
 		
 		ContratoImplementacion contratoimpl = new ContratoImplementacion(session);
 		
-		
+		Cliente cliente = new 
 	}
 
 }
